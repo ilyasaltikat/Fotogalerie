@@ -52,10 +52,6 @@ button:hover {
     width: 32px;
 }
 
-.d-none {
-    display: none;
-}
-
 .openImage {
     position: fixed;
     object-fit: cover;
