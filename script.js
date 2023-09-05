@@ -27,7 +27,7 @@ function closeOverlay() {
 function openOverlay(i) {
     let showImage = document.getElementById('show');
 
-    showImage.innerHTML = html `<div class="open-img">
+    showImage.innerHTML = `<div class="open-img">
                             <img src="left.svg" onclick="changeImageLeft(${i})" class="button-arrow-left">
                             </button><img id="detailImage" class="openImage" src="${images[i]}">
                             <img src="right.svg" onclick="changeImageRight(${i})" class="button-arrow-right">
